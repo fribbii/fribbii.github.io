@@ -1,7 +1,29 @@
 * {
     box-sizing: border-box;
 }
-
+body{
+      background-color: white;
+}
 header{
     background-color: red ;
+}
+.general{
+    color: black;
+    border: solid black 2px;
+    background-color: lightgrey;
+    background: rgba(255, 255, 255, .4);
+}
+
+.dlc{
+    color: black;
+    border: solid black 2px;
+    background-color: lightgrey;
+    background: rgba(255, 255, 255, .4);
+}
+
+.mobile{
+    color: black;
+    border: solid black 2px;
+    background-color: lightgrey;
+    background: rgba(255, 255, 255, .4);
 }
