@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+.asR{
+    grid-area: asR;
+}
+.asL{
+    grid-area: asL;
+}
+    .myndA{
+        grid-area: myndA;
+    }
+    .myndB{
+        grid-area: myndB;
+    }
+    .myndC{
+        grid-area: myndC;
+    }
+    .myndD{
+        grid-area: myndD;
+    }
+    .myndE{
+        grid-area: myndE;
+    }
+    .myndF{
+        grid-area: myndF;
+    }
+
+    figcaption{
+        font-size: small;
+    }
+
+body{
+    background-color: red;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(82, 4, 4);
+    padding: 2em;
+    
+}
+
+.headtxt{
+    text-align: center;
+    color: yellow;
+    text-shadow: 0 0 7px #ff9900;
+}
+
+main{
+    /*background-color: rgb(82, 4, 4);*/
+    color: white;
+    margin: .5em;
+}
+
+.nafn{
+    color: yellow;  
+    text-shadow: 0 0 7px #ff9900;
+    margin-left: 1em;
+    padding-top: .5em;
+    letter-spacing: 1.5;
+}
+
+p{
+    line-height: 1.4;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media  only screen and (min-width:30em){
+
+
+}
+
+@media  only screen and (min-width:48em){
+    .maxW{
+        margin: 0 auto;
+        max-width: 60em;
+    }
+
+    .transp{
+        background-color: darkred;
+
+    }
+
+    figcaption{
+        font-size: small;
+    }
+
+    .myndA{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndB{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndC{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndD{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndE{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndF{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        grid-template-areas:
+        "asR asR asR asL asL asL"
+        "myndA myndA myndA myndB myndB myndB "
+        "myndC myndC myndC myndD myndD myndD "
+        "myndE myndE myndE myndF myndF myndF";
+    }
+
+}
+
+@media  only screen and (min-width:80em){
+    .maxW{
+        margin: 0 auto;
+        max-width: 60em;
+    }
+
+    .myndA{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndB{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndC{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndD{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndE{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    .myndF{
+        display: grid;
+        border: 1px solid black;
+        background-color: darkred;
+        padding-bottom: 1em;
+
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        grid-template-areas:
+        "asR asR asR asL asL asL"
+        "myndA myndA myndB myndB myndC myndC"
+        "myndD myndD myndE myndE myndF myndF";
+    }
+
+}
+

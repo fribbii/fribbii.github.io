@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+}
+
+main, header, footer,  nav{
+    margin: 0 auto;
+}
+
+body{
+    margin : 0;
+    background-image: linear-gradient( to top, darkblue, blue);
+    font-family: 'EB Garamond', serif;
+
+}
+
+.mainBox{
+    background-image: linear-gradient(to top, yellow, rgb(253, 253, 109), yellow);
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+.right{
+    text-align: right;
+}
+
+a:visited, a:link {
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+footer{
+    color: white;
+}
+
+@media only screen and (min-width:37.5em){
+  
+  
+    main, header, footer, nav{
+        margin: 0 auto;
+    }
+
+    body{
+        margin : 0;
+        background-image: linear-gradient( to top, darkblue, blue);
+        font-family: 'EB Garamond', serif;
+
+    }
+
+    .mainBox{
+        background-image: linear-gradient(to top, yellow, rgb(253, 253, 109), yellow);
+        padding-left: 1em;
+
+    }
+
+    .left{
+        text-align: left;
+    }
+    .right{
+        display: flex;
+        justify-content: right;
+    }
+
+    a:link, a:visited {
+        color: red;
+        ;
+    }
+
+    a:hover {
+        color: hotpink;
+    }
+
+    footer{
+        color: white;
+    }
+
+    /*.frame{
+        border: solid black .5px;
+        background-color: blue;
+        padding-left: 3%;
+        padding-right: 3%;
+        
+    }
+    /*nav{
+
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        justify-content: space-between .5%;
+    }*/
+
+    .dl{
+        grid-area: dl;
+    }
+    .relative1{
+        grid-area: relative1;
+    }
+    .absolute1{
+        grid-area: absolute1;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1rf 1rf 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "dl relative1 absolute1";
+        padding-left: 1em;
+    }
+
+    .upp{
+        justify-content: right;
+        border-radius: 100%;
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        
+    }
+    .upp>a:link {
+        color: black;
+    }
+}
+@media only screen and (min-width:48em){
+  
+  
+    main, header, footer, nav{
+        margin: 0 auto;
+    }
+
+    body{
+        margin : 0;
+        background-image: linear-gradient( to top, darkblue, blue);
+        font-family: 'EB Garamond', serif;
+
+    }
+
+    .mainBox{
+        background-image: linear-gradient(to top, yellow, rgb(253, 253, 109), yellow);
+        padding-left: 1em;
+
+    }
+
+    .left{
+        text-align: left;
+    }
+    .right{
+        display: flex;
+        justify-content: right;
+    }
+
+    a:link, a:visited {
+        color: rgb(0, 255, 0);
+    }
+
+    a:hover {
+        color: hotpink;
+    }
+
+    footer{
+        color: white;
+    }
+
+    .frame{
+        border: solid black .5px;
+        background-color: blue;
+        padding-left: 3%;
+        padding-right: 3%;
+        
+    }
+    nav{
+
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        justify-content: space-between .5%;
+    }
+
+    .dl{
+        grid-area: dl;
+    }
+    .relative1{
+        grid-area: relative1;
+    }
+    .absolute1{
+        grid-area: absolute1;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1rf 1rf 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "dl relative1 absolute1";
+        padding-left: 1em;
+    }
+
+    .upp{
+        justify-content: right;
+        border-radius: 100%;
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        
+    }
+    .upp>a:link {
+        color: black;
+    }
+}
+@media only screen and (min-width:60em){
+  
+  
+    main, header, footer, nav, .upp{
+        margin: 0 auto;
+        max-width: 60em;
+    }
+
+    body{
+        margin : 0;
+        background-image: linear-gradient( to top, darkblue, blue);
+        font-family: 'EB Garamond', serif;
+
+    }
+
+    .mainBox{
+        background-image: linear-gradient(to top, yellow, rgb(253, 253, 109), yellow);
+        padding-left: 1em;
+
+    }
+
+    .left{
+        text-align: left;
+    }
+    .right{
+        display: flex;
+        justify-content: right;
+    }
+
+    a:link, a:visited {
+        color: rgb(0, 255, 0);
+    }
+
+    a:hover {
+        color: hotpink;
+    }
+
+    footer{
+        color: white;
+    }
+
+    .frame{
+        border: solid black .5px;
+        background-color: blue;
+        padding-left: 3%;
+        padding-right: 3%;
+        
+    }
+
+
+
+    nav{
+
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        justify-content: space-between .5%;
+    }
+
+    .dl{
+        grid-area: dl;
+    }
+    .relative1{
+        grid-area: relative1;
+    }
+    .absolute1{
+        grid-area: absolute1;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1rf 1rf 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "dl relative1 absolute1";
+        padding-left: 1em;
+    }
+
+    .upp{
+        justify-content: right;
+        border-radius: 100%;
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        
+    }
+    .upp>a:link {
+        color: black;
+    }
+}

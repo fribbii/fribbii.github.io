@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+header{grid-area: header;}
+article{grid-area: article;}
+.as1{grid-area: as1;}
+.as2{grid-area: as2;}
+footer{grid-area: footer;}
+.fyrirsögn{grid-area: fyrirsögn;}
+.linkar{grid-area: linkar;}
+.verkhed{grid-area: verkhed;}
+
+blockquote{
+    background-color: rgb(255, 255, 115);
+    align-items: center;
+    width: 100%;
+
+}
+body {
+    margin : 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    background-image: linear-gradient( to top, darkblue, blue);
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.haegri{
+    text-align: right;
+}
+
+main{
+    background-image: linear-gradient(to top, yellow, lightyellow);
+    padding-left: 1em;
+
+}
+
+footer{
+    color: white;
+    padding-left: 1em;
+
+
+}
+a:link {
+    color: rgb(240, 82, 108);
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+
+
+
+@media  only screen and (min-width:37.5em){
+    
+
+    main{
+        background-image: linear-gradient(to top, yellow, lightyellow);
+        display: grid;
+        padding: 2em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "article as1"
+        "article as2";
+        padding-left: 1em;
+    }
+
+    footer{
+        padding-left: 1em;
+
+    }
+    aside{
+        margin: 10px;
+    }
+}
+
+
+@media  only screen and (min-width:48em){
+
+    .bakgrunnur{
+        max-width: 100%;
+        background-image: linear-gradient(to top, yellow, lightyellow);
+    }
+    .max-width{
+        max-width: 60em;
+        margin: 0 auto;
+    }
+
+    main{
+        background-image: linear-gradient(to top, yellow, lightyellow);
+        display: grid;
+        padding: 2em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "article as1"
+        "article as2";
+        padding-left: 1em;
+
+    }
+
+    .dl{
+        grid-area: dl;
+    }
+    .relative1{
+        grid-area: relative1;
+    }
+    .absolute1{
+        grid-area: absolute1;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "dl relative1 absolute1";
+        padding-left: 1em;
+
+    }
+    aside{
+        margin: 10px;
+    }
+}
+
+@media  only screen and (min-width:60em){
+
+    .bakgrunnur{
+        max-width: 100%;
+        background-image: linear-gradient(to top, yellow, lightyellow);
+    }
+    .max-width{
+        max-width: 60em;
+        margin: 0 auto;
+    }
+
+    main{
+        
+        display: grid;
+        padding: 2em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "article as1"
+        "article as2";
+        padding-left: 1em;
+
+    }
+
+    .dl{
+        grid-area: dl;
+    }
+    .relative1{
+        grid-area: relative1;
+    }
+    .absolute1{
+        grid-area: absolute1;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1frf 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "dl relative1 absolute1";
+        padding-left: 1em;
+    }
+
+    aside{
+        margin: 10px;
+    }
+    .fyrirsögn h1{
+        text-align: left;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "fyrirsögn linkar";
+    }
+    
+}
+

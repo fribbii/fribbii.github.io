@@ -1,0 +1,40 @@
+body{
+    max-width: 50em;
+    border: 1px solid red; /* 3 stílar = widrh + style + color */
+    margin: 1em auto; /*top+botom og left + right*/ 
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif ;
+}
+/*letur*/
+h1 {
+    color: green;
+}
+h2 {
+    color: red;
+}
+
+pre {
+    background-color: black;
+    color: blanchedalmond;
+    margin: 1em 3em;
+    padding: 1em;
+}
+a {
+    color: green;
+
+}
+a:visited {
+    color: rgb(55, 0, 255);
+}
+em{
+    color: rgb(5, 5, 148);
+}
+li{
+    color: black;
+}
+strong{
+    color: rgb(177, 3, 3);
+}
+.underline{
+    text-decoration: underline;
+}

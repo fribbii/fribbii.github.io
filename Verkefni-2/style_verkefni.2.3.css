@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box; 
+}
+body{
+    max-width: 60em;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.group:before,
+.group:after {
+content: "";
+display: table;
+}
+.group:after {
+clear: both;
+}
+.group {
+clear: both;
+*zoom: 1;
+}
+.bigL{
+    float: left;
+    font-size: 50px;
+    padding-right: 10px;
+
+}
+.imgR{
+    float: right;
+    padding: left;
+
+}
+
+.box{
+    border: 1px solid black;
+    float: left; 
+    width: 50%;   
+}
+
+.box2{
+    border: 1px solid black;
+    padding-top: 10px;
+}
+.athugid{
+    text-align: center;
+    background-color: yellow;
+}
+
+.hedder{
+    text-align: right;
+    background-color: lightgrey;
+}
