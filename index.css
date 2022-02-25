@@ -1,13 +1,22 @@
 * {
     box-sizing: border-box;
 }
+/*main grid*/
+
+
+/*footer grid*/
+
 body{
     margin: 0;
-    background-image: url(backdrop.jpg);
+    background-image: linear-gradient(rgb(9,67,85), rgb(197, 129, 4));
+
+}
+.mynd{
+    background-image: url("backdrop2.jpg");
     background-repeat: no-repeat;
+
 }
 header{
-    background-color: rgb(105, 143, 143) ;
     padding: .5em;
 }
 
@@ -23,11 +32,11 @@ header{
     padding-right: .5em;
     margin-left: .5em;
     margin-right: .5em;
-    margin-top: .25em;
+    margin-top: .5em;
     color: white;
     border: solid black 2px;
     background-color: lightgrey;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .6);
 }
 
 .dlc{
@@ -37,7 +46,7 @@ header{
     color: white;
     border: solid black 2px;
     background-color: lightgrey;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .6);
 }
 
 .mobile{
@@ -48,7 +57,7 @@ header{
     color: white;
     border: solid black 2px;
     background-color: lightgrey;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .6);
 }
 
 
@@ -56,8 +65,9 @@ footer{
     margin-top: .25em;
     margin-bottom: .25em;
     color: white;
-    border: solid black .1px;
-    background-color: rgb(105, 143, 143) ;
+    
+    
+    /*background-color: rgb(9, 67, 85) ;*/
 
 
 
@@ -71,7 +81,7 @@ footer{
 a:link{
     color: white;
 }
-footer>a:visited{
+.heimildir>a:visited{
     color: rgba(0, 0, 0, 0.1);
 }
 
@@ -93,4 +103,95 @@ header>h1{
     margin-top: 2em;
     font-family: 'Sue Ellen Francisco', cursive;
     font-weight: 90000;
+}
+@media  only screen and (min-width:48em){
+    header{
+        background-color: rgb(105, 143, 143) ;
+        padding: .5em;
+    }
+    
+    .shortcuts{
+        display: flex;
+        flex-flow: column;
+    
+        font-family: 'Special Elite', cursive;
+        text-align: right;
+    }
+    .general{
+        padding-left: .5em;
+        padding-right: .5em;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-top: .25em;
+        color: white;
+        border: solid black 2px;
+        background-color: lightgrey;
+        background: rgba(0, 0, 0, .4);
+    }
+    
+    .dlc{
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-top: .25em;
+        color: white;
+        border: solid black 2px;
+        background-color: lightgrey;
+        background: rgba(0, 0, 0, .4);
+    }
+    
+    .mobile{
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-top: .25em;
+        margin-bottom: .25em;
+        color: white;
+        border: solid black 2px;
+        background-color: lightgrey;
+        background: rgba(0, 0, 0, .4);
+    }
+    
+    
+    footer{
+        margin-top: .25em;
+        margin-bottom: .25em;
+        color: white;
+        border: solid black .1px;
+        background-color: rgb(105, 143, 143) ;
+    
+    
+    
+    }
+    
+    .listi{
+        padding-left: .5em;
+        color: black;
+    }
+    
+    a:link{
+        color: white;
+    }
+    .heimildir>a:visited{
+        color: rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    .maps{
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-bottom: .5em;
+        width: 100%;
+    
+    }
+    
+    dl{
+        font-size: 20px;
+        text-decoration: bold;
+    }
+    header>h1{
+        transform: rotate(5deg);
+        margin-top: 2em;
+        font-family: 'Sue Ellen Francisco', cursive;
+        font-weight: 90000;
+    }
+    
 }
