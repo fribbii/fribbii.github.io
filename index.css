@@ -8,11 +8,11 @@
 
 body{
     margin: 0;
-    background-image: linear-gradient(rgb(9,67,85), rgb(197, 129, 4));
+    background-color: rgb(16, 145, 145);
 
 }
 .mynd{
-    background-image: url("backdrop2.jpg");
+    background-image: url("backdrop.jpg");
     background-repeat: no-repeat;
 
 }
