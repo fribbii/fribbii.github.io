@@ -2,28 +2,94 @@
     box-sizing: border-box;
 }
 body{
-      background-color: white;
+    margin: 0;
+    background-image: url(backdrop.jpg);
+    background-repeat: no-repeat;
 }
 header{
-    background-color: red ;
+    background-color: rgb(105, 143, 143) ;
+    padding: .5em;
+}
+.shortcuts{
+    display: flex;
+    flex-flow: column;
+
+    font-family: 'Special Elite', cursive;
+    text-align: right;
 }
 .general{
-    color: black;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .25em;
+    color: white;
     border: solid black 2px;
     background-color: lightgrey;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(0, 0, 0, .4);
 }
 
 .dlc{
-    color: black;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .25em;
+    color: white;
     border: solid black 2px;
     background-color: lightgrey;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(0, 0, 0, .4);
 }
 
 .mobile{
-    color: black;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    color: white;
     border: solid black 2px;
     background-color: lightgrey;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(0, 0, 0, .4);
+}
+
+
+footer{
+    margin-top: .25em;
+    margin-bottom: .25em;
+    color: white;
+    border: solid black .1px;
+    background-color: rgb(105, 143, 143) ;+
+
+
+
+}
+
+.listi{
+    padding-left: .5em;
+    color: black;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: rgba(0, 0, 0, 0.1);
+}
+
+
+.maps{
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: .5em;
+    width: 100%;
+
+}
+
+dl{
+    font-size: 20px;
+    text-decoration: bold;
+}
+header>h1{
+    transform: rotate(5deg);
+    margin-top: 2em;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-weight: 90000;
 }
