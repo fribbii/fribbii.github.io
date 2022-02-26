@@ -79,9 +79,6 @@ header>h1{
     text-align: center;
     color: #76C893;
 }
-/*header>a:link,header>a:visited{
-    color: rgb(112, 238, 156);
-}*/
 .hed1,.hed2,.hed3{
     border: gray solid 1.5px;
     margin: .25em;
@@ -97,6 +94,8 @@ header>h1{
 }
 main{
     background-color: #52B69A;
+    margin-top: -.5em;
+    margin-bottom: -1em;
 }
 .general{
     padding-left: .5em;
@@ -105,8 +104,8 @@ main{
     margin-left: .5em;
     margin-right: .5em;
     margin-top: 1em;
-    color: #184E77;
-    border: solid rgb(165, 165, 165) 2px;
+    color: black;
+    border: solid #184E77  2px;
     /*background: rgba(0, 0, 0, .6);*/
 }
 .dlc{
@@ -114,7 +113,7 @@ main{
     margin-right: .5em;
     margin-top: 1em;
     color: black;
-    border: solid rgb(165, 165, 165) 2px;
+    border: solid #184E77 2px;
     /*background: rgba(0, 0, 0, .6);*/
     padding-left: .5em;
     padding-right: .5em;
@@ -126,14 +125,14 @@ main{
     margin-top: 1em;
     margin-bottom: 1em;
     color: black;
-    border: solid rgb(165, 165, 165) 2px;
+    border: solid #184E77 2px;
     /*background: rgba(0, 0, 0, .6);*/
     padding-left: .5em;
     padding-right: .5em;
     padding-bottom: .5em;
 }
 .dlc>h3,.mobile>h3,.general>h3{
-    color: rgb(78, 135, 140);
+    color: #184E77 ;
     text-align: center;
     text-decoration: bold;
 }
@@ -144,7 +143,8 @@ main{
 /*----------------------------------------------------------------------------------------------------------------*/
 /*footer*/
 .bglit{
-    background-color: rgb(78, 135, 140);
+    background-color: #184E77;
+    margin-bottom: -1em;
 }
 footer{
     margin-left: .5em;
@@ -155,14 +155,11 @@ footer{
     /*border: 2px solid rgb(165, 165, 165);*/
 }
 .listi{
-    color: rgb(112, 238, 156);
+    color: #76C893;
     padding-left: .5em;
     padding-right: .5em;
     margin-top: 1em;
 
-}
-.listi>dd{
-    text-align: center;
 }
 .heimildir{
     padding-left: .5em;
@@ -171,7 +168,7 @@ footer{
 
 }
 .heimildir>h3{
-    color: rgb(112, 238, 156);
+    color: #76C893;
     text-align: center;
     text-decoration: bold;
 }
@@ -179,5 +176,5 @@ footer{
     width: 100%;
 }
 a:link,a:visited{
-    color: #52B69A;
+    color: #76C893;
 }
