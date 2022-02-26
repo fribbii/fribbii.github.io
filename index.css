@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+/*allt*/
 /*header grid*/
 .nafn{
     grid-area: nafn;
@@ -69,7 +70,9 @@ header{
     grid-template-rows: auto;
     grid-template-areas:
     "nafn nafn nafn"
-    "hed1 hed2 hed3";
+    "longLine longLine longLine"
+    "hed1 hed2 hed3"
+    "none none none";
     
     background-color: #184E77;
 }
@@ -81,7 +84,9 @@ header>h1{
 }
 .hed1,.hed2,.hed3{
     border: gray solid 1.5px;
-    margin: .25em;
+    margin-left: .25em;
+    margin-right: .25em;
+    margin-top: -1em;
     text-align: center;
 }
 
@@ -89,7 +94,7 @@ header>h1{
 /*----------------------------------------------------------------------------------------------------------------*/
 /*main*/
 .line{
-    border: #184E77 solid 1px;
+    border: #76C893 solid 1px;
     width: 25%;
 }
 main{
@@ -106,7 +111,7 @@ main{
     margin-top: 1em;
     color: black;
     border: solid #184E77  2px;
-    /*background: rgba(0, 0, 0, .6);*/
+    background-color: #184E77;
 }
 .dlc{
     margin-left: .5em;
@@ -118,6 +123,7 @@ main{
     padding-left: .5em;
     padding-right: .5em;
     padding-bottom: .5em;
+    background-color: #184E77;
 }
 .mobile{
     margin-left: .5em;
@@ -130,9 +136,11 @@ main{
     padding-left: .5em;
     padding-right: .5em;
     padding-bottom: .5em;
+    background-color: #184E77;
+
 }
 .dlc>h3,.mobile>h3,.general>h3{
-    color: #184E77 ;
+    color: #76C893 ;
     text-align: center;
     text-decoration: bold;
 }
@@ -176,5 +184,5 @@ footer{
     width: 100%;
 }
 a:link,a:visited{
-    color: #76C893;
+    color: #76C893   ;
 }
