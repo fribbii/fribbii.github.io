@@ -83,7 +83,7 @@ header>h1{
     color: #76C893;
 }
 .hed1,.hed2,.hed3{
-    border: gray solid 1.5px;
+    border: #184E77 ;
     margin-left: .25em;
     margin-right: .25em;
     margin-top: -1em;
@@ -94,11 +94,11 @@ header>h1{
 /*----------------------------------------------------------------------------------------------------------------*/
 /*main*/
 .line{
-    border: #76C893 solid 1px;
+    border: #036666 solid 1px;
     width: 25%;
 }
 main{
-    background-color: #52B69A;
+    background-color: #184E77;
     margin-top: -.5em;
     margin-bottom: -1em;
 }
@@ -110,20 +110,20 @@ main{
     margin-right: .5em;
     margin-top: 1em;
     color: black;
-    border: solid #184E77  2px;
-    background-color: #184E77;
+    border: solid #67B99A  2px;
+    background-color: #67B99A;
 }
 .dlc{
     margin-left: .5em;
     margin-right: .5em;
     margin-top: 1em;
     color: black;
-    border: solid #184E77 2px;
+    border: solid #67B99A 2px;
     /*background: rgba(0, 0, 0, .6);*/
     padding-left: .5em;
     padding-right: .5em;
     padding-bottom: .5em;
-    background-color: #184E77;
+    background-color: #67B99A;
 }
 .mobile{
     margin-left: .5em;
@@ -131,16 +131,16 @@ main{
     margin-top: 1em;
     margin-bottom: 1em;
     color: black;
-    border: solid #184E77 2px;
+    border: solid #67B99A 2px;
     /*background: rgba(0, 0, 0, .6);*/
     padding-left: .5em;
     padding-right: .5em;
     padding-bottom: .5em;
-    background-color: #184E77;
+    background-color: #67B99A;
 
 }
 .dlc>h3,.mobile>h3,.general>h3{
-    color: #76C893 ;
+    color: #036666 ;
     text-align: center;
     text-decoration: bold;
 }
@@ -159,15 +159,21 @@ footer{
     margin-right: .5em;
     margin-top: .25em;
     margin-bottom: .25em;
-    color: white;
+    color: #036666;
+    background-color: #67B99A ;
     /*border: 2px solid rgb(165, 165, 165);*/
 }
 .listi{
-    color: #76C893;
     padding-left: .5em;
     padding-right: .5em;
     margin-top: 1em;
 
+}
+.listi>dl>dt{
+    color: #036666;
+}
+.listi>dl>dt>dd{
+    color: #036666;
 }
 .heimildir{
     padding-left: .5em;
@@ -176,7 +182,7 @@ footer{
 
 }
 .heimildir>h3{
-    color: #76C893;
+    color: #036666;
     text-align: center;
     text-decoration: bold;
 }
@@ -184,5 +190,5 @@ footer{
     width: 100%;
 }
 a:link,a:visited{
-    color: #76C893   ;
+    color: #67B99A   ;
 }
