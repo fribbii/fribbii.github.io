@@ -25,6 +25,12 @@
 .dlc{
     grid-area: dlc;
 }
+.ac1{
+    grid-area: ac1;
+}
+.acV{
+    grid-area: acV;
+}
 .mobile{
     grid-area: moblie
 }
@@ -88,6 +94,7 @@ header>h1{
     margin-right: .25em;
     margin-top: -1em;
     text-align: center;
+    background-color: #67B99A;
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
@@ -124,6 +131,22 @@ main{
     padding-right: .5em;
     padding-bottom: .5em;
     background-color: #67B99A;
+}
+.myndir{
+    display: grid;
+    margin: .5em;
+    margin-top: 1em;
+    border: #67B99A;
+    background-color:   #67B99A;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "ac1"
+    "acV";
+}
+picture{
+    width: 100%;
+    height: auto;
 }
 .mobile{
     margin-left: .5em;
@@ -162,6 +185,7 @@ footer{
     color: #036666;
     background-color: #67B99A ;
     /*border: 2px solid rgb(165, 165, 165);*/
+    padding-top: .3em;
 }
 .listi{
     padding-left: .5em;
@@ -187,8 +211,9 @@ footer{
     text-decoration: bold;
 }
 .maps{
-    width: 100%;
+    width: auto;
+    margin: .5em;
 }
 a:link,a:visited{
-    color: #67B99A   ;
+    color: #036666   ;
 }
