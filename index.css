@@ -393,6 +393,7 @@ a:link,a:visited{
         font-weight: 90000;
         text-align: left;
         color: #76C893;
+        font-size: 40px;
     }
     .hed1,.hed2,.hed3{
         border: #184E77 ;
@@ -562,6 +563,7 @@ a:link,a:visited{
         font-weight: 90000;
         text-align: left;
         color: #76C893;
+        font-size: 50px;
     }
     .hed1,.hed2,.hed3{
         border: #184E77 ;
@@ -733,6 +735,7 @@ a:link,a:visited{
         font-weight: 90000;
         text-align: left;
         color: #76C893;
+        font-size: 50px;
     }
     .hed1,.hed2,.hed3{
         border: #184E77 ;
@@ -862,7 +865,7 @@ a:link,a:visited{
         padding-bottom: .5em;
     
     }
-    .heimildir>h3{
+    .heimildir>h3,.listi>h3{
         color: #036666;
         text-align: center;
         text-decoration: bold;

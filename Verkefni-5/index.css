@@ -7,28 +7,28 @@
 .asL{
     grid-area: asL;
 }
-    .myndA{
-        grid-area: myndA;
-    }
-    .myndB{
-        grid-area: myndB;
-    }
-    .myndC{
-        grid-area: myndC;
-    }
-    .myndD{
-        grid-area: myndD;
-    }
-    .myndE{
-        grid-area: myndE;
-    }
-    .myndF{
-        grid-area: myndF;
-    }
+.myndA{
+    grid-area: myndA;
+}
+.myndB{
+    grid-area: myndB;
+}
+.myndC{
+    grid-area: myndC;
+}
+.myndD{
+    grid-area: myndD;
+}
+.myndE{
+    grid-area: myndE;
+}
+.myndF{
+    grid-area: myndF;
+}
 
-    figcaption{
-        font-size: small;
-    }
+figcaption{
+    font-size: small;
+}
 
 body{
     background-color: red;
