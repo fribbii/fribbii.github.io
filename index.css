@@ -542,7 +542,168 @@ a:link,a:visited{
         color: #036666   ;
     }
 }
-@media  only screen and (min-width:38.635em){
+@media  only screen and (min-width:52.125em){
+    /*header*/
+    body{
+        margin: 0;
+        background-color: white;
+    }
+    header{
+        padding: .5em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "nafn nafn nafn nafn nafn nafn nafn nafn"
+        " hr hr hr hr hr  hed1  hed2  hed3"; 
+    }
+    header>h1{
+        font-family: 'Sue Ellen Francisco', cursive;
+        font-weight: 90000;
+        text-align: left;
+        color: #76C893;
+    }
+    .hed1,.hed2,.hed3{
+        border: #184E77 ;
+        margin-left: .25em;
+        margin-right: .25em;
+        margin-top: -1em;
+        text-align: center;
+        background-color: #67B99A;
+    }
+    .hr{
+        border: #184E77 solid 10px;
+    }
+    
+    /*----------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------------------------------------------------------------------*/
+    /*main*/
+    .line{
+        border: #036666 solid 1px;
+        width: 25%;
+    }
+    main{
+        display: grid;
+        background-color: #184E77;
+        margin-top: -.5em;
+        margin-bottom: -1em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "general dlc"
+        "mobile dlc"
+        "mRammi mRammi";
+    }
+    .general{
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-bottom: .5em;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-top: 1em;
+        color: black;
+        border: solid #67B99A  2px;
+        background-color: #67B99A;
+    }
+    .dlc{
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-top: 1em;
+        color: black;
+        border: solid #67B99A 2px;
+        /*background: rgba(0, 0, 0, .6);*/
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-bottom: .5em;
+        background-color: #67B99A;
+    }
+    .myndir{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "ac1 acV";    
+    }
+    .mRammi{
+        border: #67B99A;
+        background-color:   #67B99A;
+        margin: .5em;
+        margin-top: 1em;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .mobile{
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: black;
+        border: solid #67B99A 2px;
+        /*background: rgba(0, 0, 0, .6);*/
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-bottom: .5em;
+        background-color: #67B99A;
+    
+    }
+    .dlc>h3,.mobile>h3,.general>h3{
+        color: #036666 ;
+        text-align: center;
+        text-decoration: bold;
+    }
+    .dlc>dt,.mobile>dt{
+        line-height: 120%;
+    }
+    /*----------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------------------------------------------------------------------*/
+    /*footer*/
+    .bglit{
+        background-color: #184E77;
+        margin-bottom: -1em;
+    }
+    footer{
+        display: grid;
+        color: #036666;
+        background-color: #67B99A ;
+        padding-top: .3em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "listi heimildir maps";
+        
+    }
+    .listi{
+        padding-left: .5em;
+        padding-right: .5em;
+    
+    }
+    .listi>dl>dt{
+        color: #036666;
+    }
+    .listi>dl>dt>dd{
+        color: #036666;
+    }
+    .heimildir{
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-bottom: .5em;
+    
+    }
+    .heimildir>h3{
+        color: #036666;
+        text-align: center;
+        text-decoration: bold;
+    }
+    .maps{
+        width: auto;
+    }
+    a:link,a:visited{
+        color: #036666   ;
+    }
+}
+@media  only screen and (min-width:68em){
     /*max width*/
     header{
         margin: 0 auto;
@@ -552,9 +713,9 @@ a:link,a:visited{
         margin: 0 auto;
         max-width: 70em;
     }
-    .listi, .heimildir, .maps{
+    footer{
         margin: 0 auto;
-        max-width: 70em;
+        max-width: 69em;
     }
     
     /*header*/
@@ -628,17 +789,17 @@ a:link,a:visited{
     }
     .myndir{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas: 
-        "ac1"
-        "acV";
+        "ac1 acV";    
     }
     .mRammi{
         border: #67B99A;
         background-color:   #67B99A;
         margin: .5em;
         margin-top: 1em;
+        
     }
     img{
         width: 100%;
@@ -687,7 +848,6 @@ a:link,a:visited{
     .listi{
         padding-left: .5em;
         padding-right: .5em;
-        margin-top: 1em;
     
     }
     .listi>dl>dt{
@@ -709,7 +869,6 @@ a:link,a:visited{
     }
     .maps{
         width: auto;
-        margin: .5em;
     }
     a:link,a:visited{
         color: #036666   ;
